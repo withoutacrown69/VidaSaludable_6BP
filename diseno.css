@@ -15,13 +15,15 @@ h1{
 p{
 	margin-bottom: 1.6em;
 }
-
+/*Espacio a lo ancho de la pagina*/
 .container{
-	width: 85%;
+	width: 100%;
 	max-width: 850px;
 	margin: 0 auto;
+	padding: 0;
+	aling: center;
 }
-
+/*Recuadro negro del menu o encabezado*/
 .header{
 	background: #333;
 	color: green ;
@@ -31,7 +33,6 @@ p{
 	left: 0;
 	top: 0;
 	right: 0;
-	
 }
 
  .header a {
@@ -45,7 +46,7 @@ p{
 	align-items: center;
 	flex-wrap: wrap;
 }
-
+/*espacio entre las letras de "FLOPPA"*/
 .logo{
 	letter-spacing: 15px;
 	font-size: 1.3em;
@@ -54,13 +55,13 @@ p{
 .menu-icon{
 	display: flex;
 }
-
+/*margend de los botones*/
 .navigation ul{
 	margin: 0;
 	padding: 0;
-	list-style: none;
+	list-style: flex;
 }
-
+/*Posicion o acomodo de las letras*/
 .navigation ul li{
 	display: inline-block;
 }
@@ -72,21 +73,21 @@ p{
 	border-radius: 5px;
 }
 
-
 .navigation ul li a:hover {
 	background: #4a4a4a;
 }
-
+/* Separacion del texto y seccionador*/
 .main{
 	padding-top: 8rem;
 }
-
+/* Separacion del pie de pagina*/
 .footer {
 	background: #f2f2f2;
 	padding: 4rem 0;
 	text-align: center;
 	margin-top: 6 rem;
 }
+
 
 @media only screen and (max-width: 767px) {
 
@@ -104,9 +105,9 @@ p{
 .navigation ul{
 	display: flex;
 }
-
+/*Que tan pegadas estan las letras*/
 .navigation ul.show{
-	display: flex;
+	display: block;
 }
 
 .navigation ul li{
