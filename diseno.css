@@ -29,7 +29,7 @@ p{
 	color: green ;
 	padding: 2rem 0;
 
-	position: fixed;
+	position: flex;
 	left: 0;
 	top: 0;
 	right: 0;
@@ -78,7 +78,7 @@ p{
 }
 /* Separacion del texto y seccionador*/
 .main{
-	padding-top: 8rem;
+	padding-top: 2rem;
 }
 /* Separacion del pie de pagina*/
 .footer {
